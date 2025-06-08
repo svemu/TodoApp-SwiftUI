@@ -10,6 +10,7 @@ import SwiftUI
 struct MainHeaderView: View {
 
     @ObservedObject var viewModel: MainHeaderViewModel
+    @EnvironmentObject var themeManager: ThemeManager
 
     var body: some View {
         ZStack {
@@ -31,6 +32,13 @@ struct MainHeaderView: View {
                     .padding(.leading)
 
                     Spacer()
+
+                    Button(action: { themeManager.toggle() }) {
+                        Image(systemName: themeManager.selectedTheme == .dark ? "sun.max.fill" : "moon.fill")
+                            .imageScale(.large)
+                            .foregroundColor(.white)
+                    }
+                    .padding(.trailing, 8)
 
                     Image("photo")
                         .frame(width: 40, height: 40)
@@ -82,5 +90,6 @@ struct MainHeaderView: View {
 struct MainHeaderView_Previews: PreviewProvider {
     static var previews: some View {
         MainHeaderView(viewModel: MainHeaderViewModel(dataManager: MockDataManager.shared))
+            .environmentObject(ThemeManager())
     }
 }

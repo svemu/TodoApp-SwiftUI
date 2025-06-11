@@ -53,8 +53,9 @@
 		94C59A2C24E4A7DF002635A7 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C59A2A24E4A2DF002635A7 /* Category.swift */; };
 		94C59A2E24E4AFDD002635A7 /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C59A2D24E4AFDD002635A7 /* CategoriesCell.swift */; };
 		94C59A3024E4BA36002635A7 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9490D32624DC535E00C300EB /* TaskListView.swift */; };
-		94C59A3224E4BB50002635A7 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C59A3124E4BB50002635A7 /* TaskListViewModel.swift */; };
-		94C59A3424E4C28F002635A7 /* TodoDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C59A3324E4C28F002635A7 /* TodoDataManager.swift */; };
+               94C59A3224E4BB50002635A7 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C59A3124E4BB50002635A7 /* TaskListViewModel.swift */; };
+               94C59A3424E4C28F002635A7 /* TodoDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C59A3324E4C28F002635A7 /* TodoDataManager.swift */; };
+               94C59A3624E4D5E6002635A7 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C59A3524E4D5E6002635A7 /* ThemeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,8 +128,9 @@
 		94C59A2824E4A24A002635A7 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
 		94C59A2A24E4A2DF002635A7 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		94C59A2D24E4AFDD002635A7 /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
-		94C59A3124E4BB50002635A7 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
-		94C59A3324E4C28F002635A7 /* TodoDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDataManager.swift; sourceTree = "<group>"; };
+               94C59A3124E4BB50002635A7 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+               94C59A3324E4C28F002635A7 /* TodoDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDataManager.swift; sourceTree = "<group>"; };
+               94C59A3524E4D5E6002635A7 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -362,9 +364,10 @@
 				9490D30024DADC1F00C300EB /* DataManager.swift */,
 				94C59A3324E4C28F002635A7 /* TodoDataManager.swift */,
 				9490D32124DBB80900C300EB /* MockDataManager.swift */,
-				94C59A0324E095B0002635A7 /* TextFieldManager.swift */,
-				94C59A1A24E156BD002635A7 /* DependencyManager.swift */,
-			);
+                               94C59A0324E095B0002635A7 /* TextFieldManager.swift */,
+                               94C59A1A24E156BD002635A7 /* DependencyManager.swift */,
+                               94C59A3524E4D5E6002635A7 /* ThemeManager.swift */,
+                       );
 			path = Managers;
 			sourceTree = "<group>";
 		};
@@ -566,9 +569,10 @@
 				94C59A1924E0E384002635A7 /* TodoApp.xcdatamodeld in Sources */,
 				9490D31E24DBAE8900C300EB /* Array+Extension.swift in Sources */,
 				94C59A0A24E0AB89002635A7 /* TextWrappedLayout.swift in Sources */,
-				94C59A0424E095B0002635A7 /* TextFieldManager.swift in Sources */,
-				94C59A0124E09586002635A7 /* DataManager.swift in Sources */,
-				94C59A3224E4BB50002635A7 /* TaskListViewModel.swift in Sources */,
+                               94C59A0424E095B0002635A7 /* TextFieldManager.swift in Sources */,
+                               94C59A0124E09586002635A7 /* DataManager.swift in Sources */,
+                               94C59A3624E4D5E6002635A7 /* ThemeManager.swift in Sources */,
+                               94C59A3224E4BB50002635A7 /* TaskListViewModel.swift in Sources */,
 				9490D30E24DB96E500C300EB /* EnvironmentValues+Extension.swift in Sources */,
 				94C599FF24DF8381002635A7 /* RoundedCorners.swift in Sources */,
 				94C59A3024E4BA36002635A7 /* TaskListView.swift in Sources */,

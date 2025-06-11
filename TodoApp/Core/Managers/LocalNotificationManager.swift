@@ -241,7 +241,7 @@ final class LocalNotificationManager {
 }
 
 extension LocalNotificationManager {
-    func sechedule(data: LocationNotificationData) {
+    func schedule(data: LocationNotificationData) {
         let content = UNMutableNotificationContent()
         content.title = data.title
         content.body = data.body

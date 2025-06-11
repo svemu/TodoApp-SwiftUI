@@ -95,7 +95,7 @@ extension TodoDataManager: DataManager {
             date: todo.date,
             medaData: LocationNotificationData.MetaData(id: todo.id.uuidString)
         )
-        notificationManager.sechedule(data: notificationData)
+        notificationManager.schedule(data: notificationData)
     }
 
     func cancelSchedule(for todo: Todo) {

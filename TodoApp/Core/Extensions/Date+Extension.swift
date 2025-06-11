@@ -73,5 +73,5 @@ enum DateFormatterPool {
     }
 
     static let dayMonthYearFormatter = DateFormatterPool.get(format: "dd MMM, yyyy")
-    static let timeFormatter = DateFormatterPool.get(format: "hh:ss a")
+    static let timeFormatter = DateFormatterPool.get(format: "hh:mm a")
 }
